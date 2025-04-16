@@ -63,7 +63,7 @@ USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else F
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "publicearn.com")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get(ORTLINK_API_KEY", "29b557074aa857e56ca7fd6ad2e42ef2788e8443")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "de08290b12d9e34191f3a057070a50a18187fff3")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
@@ -114,7 +114,7 @@ DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE"
 
 #add admins with space seperated
 # 7195990000 289371935 248979023
-ADMIN_LIST = os.environ.get("ADMINS", "7023006442").split()
+ADMIN_LIST = os.environ.get("ADMINS", "821215952").split()
 
 
 
