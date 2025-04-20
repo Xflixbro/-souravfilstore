@@ -9,12 +9,21 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Language : <code>Python3</code></b> 🐍\n<b>○ Version : v1 🫏</b>\n<b>○ Developer : @Luxebotupdate </b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://settings'>ᴛʜɪꜱ ᴘᴇʀꜱᴏɴ</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Adult_Infinity/4'>ᴀᴅᴜʟᴛ ɪɴғɪɴɪᴛʏ</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/MovieflixOcean'>ᴛᴇᴀᴍ xᴇᴏɴғʟɪx</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/TeamXeon'>xᴇᴏɴғʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴀɴɪᴍᴇ  : <a href='https://t.me/Anime_Xeon'>ᴡᴇᴇʙ ᴢᴏɴᴇ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/Adult_Infinity"),
+                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Xeonflix')
+                    ],
+                    [
+                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MovieflixOcean"),
+                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/SeriesFlixOcean')
+                    ],
+                    [
+                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close"),
+                    InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/Adult_Infinity/4')
                     ]
                 ]
             )
