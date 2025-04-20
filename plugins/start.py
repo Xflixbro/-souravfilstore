@@ -233,8 +233,7 @@ async def start_command(client: Client, message: Message):
                 id=message.from_user.id
             ),
             reply_markup=reply_markup,
-            disable_web_page_preview=True,
-            quote=True
+            
         )
         return
     if USE_SHORTLINK and (not U_S_E_P): 
