@@ -49,6 +49,8 @@ OWNER_TAG = os.environ.get("OWNER_TAG", "orriotel")
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "600"))
 
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/SPw.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/SPq.jpg")
 
 #Shortner (token system) 
 """
